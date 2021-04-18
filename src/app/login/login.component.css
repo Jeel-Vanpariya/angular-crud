@@ -11,7 +11,7 @@ html {
   }
 
   a {
-    color: #000000;
+    color: #ffffff;
     display:inline-block;
     text-decoration: none;
     font-weight: 400;
@@ -24,7 +24,7 @@ html {
     text-transform: uppercase;
     display:inline-block;
     margin: 40px 8px 0px 8px;
-    color: #ffc107;
+    color: #ffffff;
   }
 
 
@@ -55,7 +55,7 @@ html {
   }
 
   #formFooter {
-    background-color:#ffc107;
+    background-color:#0069d9;
     border-top: 1px solid #dce8f1;
     padding: 25px;
     text-align: center;
