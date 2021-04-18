@@ -1,12 +1,25 @@
 <mat-toolbar class="navbar bg-primary">
-    <h1 class="text-dark">Jeel Vanpariya</h1>
-    <div>
-        <a class="btn btn-success" *ngIf="!this._authService.isLoggedIn()" routerLink="/register">Register</a>
-        <a *ngIf="this._authService.isLoggedIn()" routerLink="/addvideo" class="btn btn-success ml-2"><i
-                class="fa fa-plus" aria-hidden="true"></i> Add Video</a>
-        <a *ngIf="this._authService.isLoggedIn()" (click)="logout()" class="btn btn-danger ml-2"><i
-                class="fa fa-sign-out" aria-hidden="true"></i> Logout</a>
-    </div>
+  <h1 class="text-white">Jeel Vanpariya</h1>
+  <div>
+    <a
+      class="btn btn-success"
+      *ngIf="!this._authService.isLoggedIn()"
+      routerLink="/register"
+      >Register</a
+    >
+    <a
+      *ngIf="this._authService.isLoggedIn()"
+      routerLink="/addvideo"
+      class="btn btn-success ml-2"
+      ><i class="fa fa-plus" aria-hidden="true"></i> Add Video</a
+    >
+    <a
+      *ngIf="this._authService.isLoggedIn()"
+      (click)="logout()"
+      class="btn btn-danger ml-2"
+      ><i class="fa fa-sign-out" aria-hidden="true"></i> Logout</a
+    >
+  </div>
 </mat-toolbar>
 <!-- <div *ngIf="this._authService.isLoading | async">
     <mat-progress-bar mode="indeterminate"></mat-progress-bar>
